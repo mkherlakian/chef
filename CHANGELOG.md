@@ -126,6 +126,7 @@
 * Add `:node_ssl_verify_mode` & `:node_verify_api_cert` options to bootstrap
   to be able to configure these settings on the bootstrapped node.
 * Add partial_search dsl method to Chef::Search::Query, add result filtering to search.
+* Set :ssl_verify_mode to :verify_peer by default.
 
 ## Last Release: 11.14.2
 
